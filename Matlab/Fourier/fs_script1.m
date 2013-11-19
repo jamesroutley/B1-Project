@@ -20,9 +20,9 @@ result = trapz(x,cs)   % This is the result: hope it is small!
 % Plot the c, s, and prod in red, green and blue
 hold off;
 set(gca, 'FontSize', 18);
-plot(x, c,  '-', 'LineWidth',2, 'Color', [0.7 0 0]); hold on;
-plot(x, s,  '-', 'LineWidth',2, 'Color', [0 0.7 0]); hold on;
-plot(x, cs, '-', 'LineWidth',3, 'Color', [0 0 0.7]); hold on;
+plot(x, c,  '-', 'LineWidth',2, 'Color', 'red'); hold on;
+plot(x, s,  '-', 'LineWidth',2, 'Color', 'green'); hold on;
+plot(x, cs, '-', 'LineWidth',3, 'Color', 'blue'); hold on;
 xlabel('x'); ylabel('c,s, c times s');
 print('-depsc', 'fs_script1.eps'); % Save diagram as colour postscript
 
