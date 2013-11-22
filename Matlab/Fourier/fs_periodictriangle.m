@@ -5,7 +5,7 @@
 % Takes care not to assume x(i) is between -T/2 and +T/2
 % jpc 11/10/13
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  function t = fs_periodictriangle(T,x)
+  function t = fs_periodictriangle(T, x, a)
   for i=1:length(x)
 % First scale x(i) and shift to the right, 
 % so v has unit period defined by the interval [0,1].
@@ -15,8 +15,8 @@
     v = mod(v,1) - 0.5;
 % v is now definitely between -0.5 and +0.5
     if v < 0
-      t(i) = 1+2*v;  % use function definition for -ve
+      t(i) = 1+v/a;  % use function definition for -ve
     else
-      t(i) = 1-2*v;  % use function definition for +ve
+      t(i) = 1-v/a;  % use function definition for +ve
     end
   end

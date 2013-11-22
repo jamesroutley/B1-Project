@@ -25,6 +25,7 @@ function [result,codeok] = fs_orthog(T,nint,m,n,code)
     v1 = cos(m*w*x);          % Yes. Hence cos (m w x)
   elseif code(1) == 's'       % No. Is is sin?
     v1 = sin(m*w*x);          % Yes. hence sin (m w x)
+    v1
   else                        % Is it neither c nor s? 
     codeok = 0;               % Must be a bad code
   end
