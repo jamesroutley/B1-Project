@@ -36,9 +36,6 @@ V
 E = zeros(n, n-1);
 G = zeros(n, length(x));
 
-
-
-
 %for k = 1 : n
     
     
