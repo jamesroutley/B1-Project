@@ -4,8 +4,7 @@
 %
 %A high level script which performs Gram-Schmidt orthoganalisation on a
 %set of linearly independent functions V, to produce an orthonormal basis
-%set G. 
-%
+%set G.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -20,17 +19,19 @@ n = number_of_functions - 1;
 %generate a matrix V, columns of which are monomials over the range of x
 V = zeros(id(n), length(x));
 for i = id(0):id(n)
-    for j = id(0):length(x)       
+    for j = id(0):length(x)
         V(i,j) = x(j)^(i-1);
     end
 end
 V
 
-%This code will eventually be stored in a function gs_generateEG
+%This code will eventually be stored in a function
+%gs_gramschmittorthogonalisation
 %Set up empty matrices E and G to store the values of e and g
 E = zeros(id(n), id(n)-1);
 G = zeros(id(n), length(x));
 %Set g0 = v0
+%THIS LINE MAY BE UNNECESSARY
 G(id(0), :) = V(id(0), :);
 
 
