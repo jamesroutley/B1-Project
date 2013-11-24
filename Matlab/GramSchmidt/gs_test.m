@@ -1,19 +1,8 @@
 
 
-%n is the number of monomials we are looking at 
-number_of_functions = 3;
-n = number_of_functions - 1;
 
+x = linspace(-100, 100, 11);
 
-E = zeros(id(n), id(n)-1);
-E
+x.*1.*exp(-x)
 
-for k = 1 : n
-    for l = 1 : k
-        E(id(k), l) = l+k;
-        
-        
-    end    
-
-end
-E
+plot(x, x.*1.*exp(-x))

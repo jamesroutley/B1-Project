@@ -9,7 +9,7 @@
 
 
 function [result] = gs_innerproduct(x, y1, y2)
-    result = trapz(x, y1.*y2.*exp(x));
+    result = trapz(x, y1.*y2.*exp(-x));
     
 end
 
