@@ -5,6 +5,8 @@
 %A high level script which performs Gram-Schmidt orthoganalisation on a
 %set of linearly independent functions V, to produce an orthonormal basis
 %set G. Matrix E contians the coefficients. UNFINISHED
+%For the sake of this testing, our linearly independant functions shall be
+%increasing powers of x: vi(x) = x^i for i = 0:n
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -15,13 +17,11 @@ x = linspace(-50, 50, 11);
 number_of_functions = 3;
 n = number_of_functions - 1;
 
-%generate a matrix V, columns of which are monomials over the range of x
+%Generate V, containing increasing powers of x:
 V = gs_increasingpowersofx(n, x);
-V
+
 
 
 %Perform Gram Schmitt Orthogonalisation on V
 [E,G] = gs_gramschmittorthogonalisation(V, n, x);
 
-E
-G
