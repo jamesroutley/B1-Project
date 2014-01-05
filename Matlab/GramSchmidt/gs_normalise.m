@@ -1,18 +1,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%29/11/13 James Routley
+%5/1/14 James Routley
 %function gs_normalise
 %
-%Takes a matrix, G, the rows of which are a series of functions and
-%normalises the functions. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-function [C] = gs_normalise(G, n, x)
 
-    C = zeros(n, 1);
-
+function [Gnormal] =  gs_normalise(G, Gcoeff, n, x)
+    Gnormal = zeros(n, length(x));
     for i = 1:n
-        C(1, i) = sqrt(gs_innerproduct(x, G(i,:), G(i,:)));
+        Gnormal(i,:) = G(i,:) / Gcoeff(i);
     end
-
 end

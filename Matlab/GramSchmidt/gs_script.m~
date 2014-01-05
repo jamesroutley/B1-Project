@@ -25,13 +25,43 @@ V = gs_increasingpowersofx(n, x);
 [E,G] = gs_gramschmittorthogonalisation(V, n, x);
 
 %Print E values
-E
+E;
 
-%Verify orthogonality UNFINISHED
-gs_verifyorthogonality(G, n, x);
+%Verify orthogonality
+if gs_verifyorthogonality(G, n, x) == 1
+    sprintf('G is orthogonal')
+else 
+    sprintf('G is not orthogonal')
+end
+    
+ 
 
-%Calculate normalising constant, C
-C = gs_normalise(G, n, x);
+%compute normalising constant
+Gcoeff = gs_normalisingcoeff(G, n, x);
+
+%normalise G
+Gnormal = gs_normalise(G, Gcoeff, n, x);
+
+
+%verify normality
+%gs_verifynormality;
+%gs_verifynormality(Gnormal, n)
+
+%verify orthogonality
+gs_verifyorthogonality(Gnormal, n, x);
+
+if gs_verifyorthogonality(Gnormal, n, x) == 1
+    sprintf('Gnormal is orthogonal')
+else 
+    sprintf('Gnormal is not orthogonal')
+end
+
+
+%plot results on a graph
+gs_plot(G, n, x)
+
+
+
 
 
 

@@ -1,0 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%5/1/14 James Routley
+%function gs_verifynormality
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+function = gs_verifynormality(Gnormal)
+    
