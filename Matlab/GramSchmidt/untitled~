@@ -1,0 +1,15 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%29/11/13 James Routley
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+function [C] = gs_normalis(G, n, x)
+
+    C = zeros(n, 1);
+
+    for i = 1:n
+        C(1, i) = sqrt(gs_innerproduct(x, G(i,:), G(i,:)));
+    end
+
+end

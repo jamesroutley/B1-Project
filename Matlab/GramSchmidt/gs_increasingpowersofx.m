@@ -6,9 +6,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function V = gs_increasingpowersofx(n, x)
-    V = zeros(id(n), length(x));
-    for i = id(0):id(n)
-        for j = id(0):length(x)
+    V = zeros(n, length(x));
+    for i = 1:n
+        for j = 1:length(x)
             V(i,j) = x(j)^(i-1);
         end
     end

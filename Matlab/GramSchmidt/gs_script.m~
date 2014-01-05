@@ -25,10 +25,15 @@ V = gs_increasingpowersofx(n, x);
 [E,G] = gs_gramschmittorthogonalisation(V, n, x);
 
 %Print E values
-%print(E)
+E
 
 %Verify orthogonality UNFINISHED
-gs_verifyorthogonality(G, n, x) 
+gs_verifyorthogonality(G, n, x);
+
+%Calculate normalising constant, C
+C = gs_normalise(G, n, x);
+
+
 
 
 
