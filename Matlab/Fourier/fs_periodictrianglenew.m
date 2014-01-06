@@ -16,15 +16,12 @@
 % v is now definitely between -0.5 and +0.5
     if v < 0
       t(i) = 1+v/a;  % use function definition for -ve
-      
     else
       t(i) = 1-v/a;  % use function definition for +ve
-   
     end
-
   end
   
-  for i=1:length(x)
+  for i=1:length(x)  %let function t(x) = 0 whenever t(x) <= 0
       if t(i) <= 0 
           t(i) = 0;
       end
