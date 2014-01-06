@@ -6,6 +6,17 @@
 
 
 function [normal] = gs_verifynormality(Gnormal, n)
-    for i = 1:n
-        isnormal = Gnormal  ;
-    
+    I = eye(n+1);
+   
+    P = norm(I-Y);
+    P(P<0.00001) = 0;
+
+    if P == 0
+        normal = 'Yes';
+
+    else
+        normal = 'No';
+
+    end
+
+ 

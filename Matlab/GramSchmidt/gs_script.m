@@ -11,10 +11,10 @@
 
 
 %range of x values
-x = linspace(0, 100,10001);
+x = linspace(0, 10,1001);
 
 %n is the number of functions we will consider
-n = 15;
+n = 4;
 
 
 %Generate V, containing increasing powers of x:
@@ -28,7 +28,7 @@ V = gs_increasingpowersofx(n, x);
 E;
 
 %Verify orthogonality
-if gs_verifyorthogonality(G, n, x) == 1
+if gs_verifyorthogonality(G, n, x) == 1;
     sprintf('G is orthogonal')
 else 
     sprintf('G is not orthogonal')
@@ -58,7 +58,7 @@ end
 
 
 %plot results on a graph
-gs_plot(G, n, x)
+gs_plot(Gnormal, n, x)
 
 
 
