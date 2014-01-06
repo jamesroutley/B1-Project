@@ -1,8 +1,47 @@
 #B1 Project Writeup 
+James Routley  
+Trinity College, Oxford  
+6th January 2013  
+<https://github.com/jamesroutley/B1-Project>
 
-## Fourier
+The numbers before headings refer to the numbering system in the project notes.
 
-This project aims to generate a function which accurately fits some data given about 
+## 1. Introduction
+
+The aim of this project is to investigate the statistical properties of Wifi systems operating indoors. We shall do this by using a set of orthogonal basis functions called *Laguerre functions* to construct a mathematical model of the probability density function describing the attenuation caused by the scattering process in the wireless communication medium. 
+
+The project starts by showing how orthogonality is a useful property and that Laguerre functions are orthogonal before moving on to **unfinished**
+
+## 2. Orthogonality
+
+We can use orthogonal basis functions to model our data. Orthogonal basis functions, such as:
+
+$$ {f(0) = a_0 + a_1x + a_2x^2 + a_3x^3 }$$ 
+
+are useful because we can add more $$$x$$$ terms without having to recalculate our previous coefficients. 
+
+### 2.3 Fourier Series
+
+A common orthogonal basis set Fourier series, the functions $$$cos(n \\omega x)$$$ and $$$sin(n \\omega x)$$$, for  $$$n = 0, 1, ... $$$  formed an orthogonal set when the inner product is defined by the integral over a period $$$T = 2\\pi \\over \\omega$$$, divided by the period.
+
+### 2.4 Using Matlab to compute Fourier series
+
+#### 2.4.2 Reminder about Matlab functions
+
+We are given a function `fs-orthog.m` which integrates Fourier basis functions over a period. We are asked to write some code, `fs_orthogtest.m`, which calls this function for $$$cos(m x) \\times cos(n x)$$$ for $$$ m = 0 \\to 6 $$$ and $$$ n = 0 \\to 6$$$ and stores the result in a 2D matrix:
+
+```
+coscos = zeros(7); %set up a 7x7 matrix of zeroes to store the integral results
+
+for m = 0 : 6
+    for n = 0 : 6
+        coscos(m+1, n+1) = fs_orthog(1, 1000, m, n, 'cc'); 
+    end
+end
+```
+We later repeat this code to include $$$sin(m x) \\times sin(n x)$$$ and $$$cos(m x) \\times sin(n x)$$$
+
+
 
 ## Gram-Schmidt Orthogonalisation
 
