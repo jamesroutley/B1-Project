@@ -15,8 +15,8 @@ function t = fs_periodictriangle (T , x )
     v = mod (v ,1) - 0.5;
 % v is now definitely between -0.5 and +0.5
         if v < 0
-        t(i) = 1+2* v; % use function definition for - ve
+        t(i) = 1+2* v ; % use function definition for - ve
         else
-        t(i) = 1 -2* v; % use function definition for + ve
+        t(i) = 1 -2* v ; % use function definition for + ve
         end
     end

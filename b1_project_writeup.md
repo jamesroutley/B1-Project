@@ -41,9 +41,13 @@ end
 ```
 We later repeat this code to include $$$sin(m x) \\times sin(n x)$$$ and $$$cos(m x) \\times sin(n x)$$$
 
+**What is the reason for this failure?**
 
+#### 2.4.3 Code to compute Fourier series coefficients
 
-## Gram-Schmidt Orthogonalisation
+To compute the Fourier series coefficients, we are given two pieces of code, `fs_Acoeff.m` and `fs_Bcoeff.m` which calculate the $$$ A_m $$$ and $$$ B_m $$$ coefficients respectively. These functions are called from a top level script, `fs_triangle.m`. This top level script calls `fs_periodictriangle.m`, which generates the periodic function 
+
+## 3. Gram-Schmidt Orthogonalisation
 
 1. explain the mathematics behind your method,
 2. describe your implementation and supply the key parts of the code,
@@ -53,6 +57,6 @@ We later repeat this code to include $$$sin(m x) \\times sin(n x)$$$ and $$$cos(
 6. draw conclusions.
 
 
-## Laguerre
+## 4. Laguerre
 
 
