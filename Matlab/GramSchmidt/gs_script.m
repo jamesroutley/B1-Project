@@ -11,10 +11,10 @@
 
 
 %range of x values
-x = linspace(0, 10,1001);
+x = linspace(0, 10,10001);
 
 %n is the number of functions we will consider
-n = 4;
+n = 6;
 
 
 %Generate V, containing increasing powers of x:

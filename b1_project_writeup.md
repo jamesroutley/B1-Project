@@ -132,16 +132,20 @@ The Gram-Schmitt orthogonalisation is performed by a function `gs_gramschmittort
 ```
 function [E, G] = gs_gramschmittorthogonalisation(V, n, x)
 
-    E = zeros(n, n-1);			%create empty matrices E and G
+    E = zeros(n);
     G = zeros(n, length(x));
-    G(1, :) = V(1, :);			%Set g0 = v0
+    %Set g0 = v0
+    G(1, :) = V(1, :);
+
 
     for k = 1 : n-1
-        G(k+1, :) = V(k+1, :);	%set gk = vk
+        %set gk = vk
+        G(k+1, :) = V(k+1, :);
         for l = 1 : k
             %calculate e and store it in E
             E(k+1, l) = gs_innerproduct(x, V(k+1, :), G(l, :)) / gs_innerproduct(x, G(l, :), G(l, :));
-            %subtract the projection of previous functions from the function in question 
+            %subtract the projection of previous functions from the function in
+            %question 
             G(k+1, :) = G(k+1, :) -  E(k+1, l) .* G(l, :);
         end
     end
@@ -149,8 +153,8 @@ end
 
 ```
 
-The nested `for` loops **unfinished**
-
+The nested `for` loops cycle row by row through the matrix $$$E$$$, calculating and storing coefficient values $$$e_{k,l}$$$ in the column spaces before subtracting the projections of previous functions from $$$G_k$$$
+ 
 The inner product is calculated in `gs_innerproduct.m` using Matlab's `trapz` function:
 
 ```
@@ -158,6 +162,14 @@ function [result] = gs_innerproduct(x, y1, y2)
     result = trapz(x, y1.*y2.*exp(-x));
 end
 ```
+\begin{equation} \label{eq:coolEquation}
+f(x)=\begin{cases}
+1+2x, & \text{$ -\frac{1}{2} \leq x < 0 $} \\
+1-2x, & \text{$ 0 \leq x<\frac{1}{2} $}
+\end{cases}
+\end{equation}
+
+Equation ~\ref{eq:coolEquation} is pretty cool, huh?
 
 
 ## 4. Laguerre

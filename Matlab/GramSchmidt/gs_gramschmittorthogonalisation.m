@@ -20,7 +20,7 @@
 
 function [E, G] = gs_gramschmittorthogonalisation(V, n, x)
 
-    E = zeros(n, n-1);
+    E = zeros(n);
     G = zeros(n, length(x));
     %Set g0 = v0
     G(1, :) = V(1, :);
