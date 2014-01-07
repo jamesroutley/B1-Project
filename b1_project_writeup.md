@@ -60,7 +60,7 @@ If we run `fs_triangle.m` with four $$$n$$$ terms, we obtain the plot:
 
 - Create a new Matlab function(s) to generate the periodic function shown in Fig. 2.4, where a is a parameter. Explore the number of terms required to provide a decent representation of the function as a gets smaller.
 
-I created a new function `
+I created a new function `fs_periodictrianglenew.m` which generates the 
 
 - **How might you define \decent"?**
 - **What do you notice about the Bm coecients?**
