@@ -111,12 +111,51 @@ We are to perform Gram_Schmitt orthogonalisation on the linearly independent set
 v_0(x) &= 1 \\\
 v_1(x) &= x \\\
 v_2(x) &= x^2 \\\
+...
 \end{aligned} \\]
 
 with respect to the inner product:
 
 $$ \langle g_n, g_m \rangle = \int_0^\infty \ g_n(x)g_m(x)e^{-x} \, \mathrm{d}x $$
 
+My code is run by calling a top level script, `gs_script.m`. The parameters of how many monomials to linearise and the range of x values to look at are defined within the script. The script calls on a series of functions to complete small tasks:
+
+1. Generate a matrix, $$$G$$$, of the monomials.
+2. Perform Gram-Schmitt orthogonalisation upon the matrix G to produce a matrix of orthogonal functions, $$$V$$$ and a matrix of coefficients, $$$E$$$.
+3. Normalise $$$V$$$ and verify orthonormality of $$$\tilde{V}$$$
+4. Plot the orthonormal functions $$$\tilde{v_0},\ \tilde{v_1}, \tilde{v_2},\ ...  $$$
+
+The Gram-Schmitt orthogonalisation is performed by a function `gs_gramschmittorthogonalisation.m`:
+
+```
+function [E, G] = gs_gramschmittorthogonalisation(V, n, x)
+
+    E = zeros(n, n-1);			%create empty matrices E and G
+    G = zeros(n, length(x));
+    G(1, :) = V(1, :);			%Set g0 = v0
+
+    for k = 1 : n-1
+        G(k+1, :) = V(k+1, :);	%set gk = vk
+        for l = 1 : k
+            %calculate e and store it in E
+            E(k+1, l) = gs_innerproduct(x, V(k+1, :), G(l, :)) / gs_innerproduct(x, G(l, :), G(l, :));
+            %subtract the projection of previous functions from the function in question 
+            G(k+1, :) = G(k+1, :) -  E(k+1, l) .* G(l, :);
+        end
+    end
+end
+
+```
+
+The nested `for` loops **unfinished**
+
+The inner product is calculated in `gs_innerproduct.m` using Matlab's `trapz` function:
+
+```
+function [result] = gs_innerproduct(x, y1, y2)
+    result = trapz(x, y1.*y2.*exp(-x));
+end
+```
 
 
 ## 4. Laguerre
