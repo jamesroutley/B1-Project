@@ -174,5 +174,41 @@ Equation ~\ref{eq:coolEquation} is pretty cool, huh?
 
 ## 4. Laguerre
 
+### 4.1. Laguerre Polynomials 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 184.168.221.9
