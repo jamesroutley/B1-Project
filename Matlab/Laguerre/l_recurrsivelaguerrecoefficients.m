@@ -16,7 +16,6 @@ function C = l_recurrsivelaguerrecoefficients(n, a)
     C(2, n-1 : n) = [-1, a + 1];
 
 %cycle through rows and calculate and store coefficients
-counter = 0;
     for i = 3:n
         
 %caclculate the values of the coefficients of the recurring section of

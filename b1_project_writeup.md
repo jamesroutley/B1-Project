@@ -162,14 +162,7 @@ function [result] = gs_innerproduct(x, y1, y2)
     result = trapz(x, y1.*y2.*exp(-x));
 end
 ```
-\begin{equation} \label{eq:coolEquation}
-f(x)=\begin{cases}
-1+2x, & \text{$ -\frac{1}{2} \leq x < 0 $} \\
-1-2x, & \text{$ 0 \leq x<\frac{1}{2} $}
-\end{cases}
-\end{equation}
 
-Equation ~\ref{eq:coolEquation} is pretty cool, huh?
 
 
 ## 4. Laguerre
@@ -210,5 +203,3 @@ Equation ~\ref{eq:coolEquation} is pretty cool, huh?
 
 
 
-
-184.168.221.9

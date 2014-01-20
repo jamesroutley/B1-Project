@@ -36,12 +36,11 @@ L = D*X;
     %plot
 hold off ; set ( gca , 'FontSize' , 18);
 plot(xrange,L,'-', 'LineWidth' ,2)
-grid ON
 legend ('L0','L1','L2','L3','L4','L5', 'Location', 'NorthEast') 
 xlabel('x-values');
 ylabel(sprintf('Laguerre polynomials up to %d terms',n));
 title('Laguerre polynomials');
-axis ([xmin xmax -10 20]);
+axis ([xmin xmax -15 30]);
 
 
 
