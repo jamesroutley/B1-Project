@@ -2,7 +2,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % fs_triangle.m DWM 6/9/10
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  function fs_triangle(T,nint,nterms)
+function [fseries] = fs_triangle(T,nint,nterms)
   w = 2*pi/T;                   % Derive omega
                                 % Integral from -T/2 to +T/2
   x = (-T/2:T/nint:T/2);        % Make vector of x values

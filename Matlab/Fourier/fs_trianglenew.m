@@ -2,7 +2,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % fs_trianglenew.m 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  function fs_trianglenew(T,nint,nterms, a)
+function [fseries] =  fs_trianglenew(T,nint,nterms, a)
   w = 2*pi/T;                   % Derive omega
                                 % Integral from -T/2 to +T/2
   x = (-T/2:T/nint:T/2);        % Make vector of x values
@@ -18,6 +18,9 @@
   for m=1:1:nterms
     fseries = fseries + A(m)*cos(m*w*x) + B(m)*sin(m*w*x);
   end
+  
+  
+  
 % Plot original triangular function
   hold off;
   set(gca, 'FontSize', 18);
