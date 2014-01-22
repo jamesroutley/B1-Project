@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% fs_triangleerrorscript.m 
+% fs_triangleAerrorscript.m 
 % James Routley 21/1/14
 %
 %

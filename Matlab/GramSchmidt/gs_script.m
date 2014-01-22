@@ -11,7 +11,7 @@
 
 
 %range of x values
-x = linspace(0, 10,10001);
+x = linspace(0, 20,1001);
 
 %n is the number of functions we will consider
 n = 6;
@@ -25,7 +25,7 @@ V = gs_increasingpowersofx(n, x);
 [E,G] = gs_gramschmittorthogonalisation(V, n, x);
 
 %Print E values
-E;
+E
 
 %Verify orthogonality
 if gs_verifyorthogonality(G, n, x) == 1;

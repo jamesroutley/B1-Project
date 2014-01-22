@@ -1,6 +1,7 @@
-% Compute Fourier coeffs and series upto nterms for a triangle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% fs_triangleerror.m DWM 6/9/10
+% fs_triangleerror.m 
+% James Routley 21/1/14
+%
 %
 % a function which calculates the least square error of the nth fourier
 % representation of a periodic triangle. 
