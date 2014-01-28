@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.21)  22 JAN 2014 15:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.21)  24 JAN 2014 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -152,7 +152,15 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen128
 \l_MT_above_shortintertext_sep=\dimen129
 \l_MT_below_shortintertext_sep=\dimen130
-) (/usr/local/texlive/2013/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2013/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
  Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix <2008/02/07> (tvz)
 \FV@CodeLineNo=\count107
@@ -161,34 +169,162 @@ Package: fancyvrb 2008/02/07
 \c@FancyVerbLine=\count108
 \FV@StepNumber=\count109
 \FV@OutFile=\write3
-) (/Users/James/SkyDrive/Documents/Oxford/B1 Project/B1 Project/.texpadtmp/b1writeup.aux)
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+) (./mcode.sty
+-- Package: `mcode' 2.4 <2013/11/05> --
+Package: mcode 2013/11/05 2.4
+ - settings optimized for display (colour formating)
+ - framed listings
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count110
+\lst@gtempboxa=\box29
+\lst@token=\toks21
+\lst@length=\count111
+\lst@currlwidth=\dimen131
+\lst@column=\count112
+\lst@pos=\count113
+\lst@lostspace=\dimen132
+\lst@width=\dimen133
+\lst@newlines=\count114
+\lst@lineno=\count115
+\lst@maxwidth=\dimen134
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count116
+\lst@skipnumbers=\count117
+\lst@framebox=\box30
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)) (/Users/James/SkyDrive/Documents/Oxford/B1 Project/B1 Project/.texpadtmp/b1writeup.aux)
 \openout1 = `b1writeup.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 18.
  (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen131
-\scratchbox=\box29
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen132
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count118
+\scratchdimen=\dimen135
+\scratchbox=\box31
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen136
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks23
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
  (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
@@ -230,15 +366,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* h-part:(L,W,R)=(43.36243pt, 527.57014pt, 43.36243pt)
+* v-part:(T,H,B)=(43.36243pt, 708.24513pt, 43.36243pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=527.57014pt
+* \textheight=708.24513pt
+* \oddsidemargin=-28.90756pt
+* \evensidemargin=-28.90756pt
+* \topmargin=-65.90756pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -256,41 +392,164 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[1
+\c@lstlisting=\count124
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <fs_triangle4.jpg, id=10, 562.1pt x 420.57124pt>
-File: fs_triangle4.jpg Graphic file (type jpg)
- <use fs_triangle4.jpg>
-Package pdftex.def Info: fs_triangle4.jpg used on input line 95.
-(pdftex.def)             Requested size: 281.04932pt x 210.28511pt.
- [1]
-File: fs_triangle4.jpg Graphic file (type jpg)
- <use fs_triangle4.jpg>
-Package pdftex.def Info: fs_triangle4.jpg used on input line 103.
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 110.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 117.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+) <Matlab/Fourier/Images/fs_triangle4.jpg, id=10, 562.1pt x 420.57124pt>
+File: Matlab/Fourier/Images/fs_triangle4.jpg Graphic file (type jpg)
+ <use Matlab/Fourier/Images/fs_triangle4.jpg>
+Package pdftex.def Info: Matlab/Fourier/Images/fs_triangle4.jpg used on input line 164.
 (pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
-File: fs_triangle4.jpg Graphic file (type jpg)
- <use fs_triangle4.jpg>
-Package pdftex.def Info: fs_triangle4.jpg used on input line 111.
+ <Matlab/Fourier/Images/errorAEquals1.png, id=11, 562.1pt x 420.57124pt>
+File: Matlab/Fourier/Images/errorAEquals1.png Graphic file (type png)
+ <use Matlab/Fourier/Images/errorAEquals1.png>
+Package pdftex.def Info: Matlab/Fourier/Images/errorAEquals1.png used on input line 172.
 (pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
 
-Underfull \hbox (badness 3291) in paragraph at lines 113--113
-[]\OT1/cmr/m/n/10 Figure 2: $\OML/cmm/m/it/10 e$ \OT1/cmr/m/n/10 co-ef-fi-cients up to $\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 = 5$.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1] <Matlab/Fourier/Images/fs_periodictrianglenew.png, id=24, 764.8575pt x 527.9725pt>
+File: Matlab/Fourier/Images/fs_periodictrianglenew.png Graphic file (type png)
+ <use Matlab/Fourier/Images/fs_periodictrianglenew.png>
+Package pdftex.def Info: Matlab/Fourier/Images/fs_periodictrianglenew.png used on input line 191.
+(pdftex.def)             Requested size: 191.2139pt x 131.9928pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]\OT1/cmr/m/n/10 Figure 3: The func-tion gen-er-ated by
  []
 
-[2 <./fs_triangle4.jpg>] [3] [4] [5] (/Users/James/SkyDrive/Documents/Oxford/B1 Project/B1 Project/.texpadtmp/b1writeup.aux) ) 
+[2 <./Matlab/Fourier/Images/fs_triangle4.jpg> <./Matlab/Fourier/Images/errorAEquals1.png (PNG copy)> <./Matlab/Fourier/Images/fs_periodictrianglenew.png>] <Matlab/GramSchmidt/Images/gsorthogonalisation.png, id=28, 562.1pt x 420.57124pt>
+File: Matlab/GramSchmidt/Images/gsorthogonalisation.png Graphic file (type png)
+ <use Matlab/GramSchmidt/Images/gsorthogonalisation.png>
+Package pdftex.def Info: Matlab/GramSchmidt/Images/gsorthogonalisation.png used on input line 335.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ <Matlab/GramSchmidt/Images/gs_Evalues.png, id=29, 385.44pt x 185.69376pt>
+File: Matlab/GramSchmidt/Images/gs_Evalues.png Graphic file (type png)
+ <use Matlab/GramSchmidt/Images/gs_Evalues.png>
+Package pdftex.def Info: Matlab/GramSchmidt/Images/gs_Evalues.png used on input line 343.
+(pdftex.def)             Requested size: 231.26578pt x 111.4171pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4 <./Matlab/GramSchmidt/Images/gsorthogonalisation.png (PNG copy)> <./Matlab/GramSchmidt/Images/gs_Evalues.png>] <Matlab/Laguerre/Graphs/RecursivePolynomials.png, id=41, 562.1pt x 420.57124pt>
+File: Matlab/Laguerre/Graphs/RecursivePolynomials.png Graphic file (type png)
+ <use Matlab/Laguerre/Graphs/RecursivePolynomials.png>
+Package pdftex.def Info: Matlab/Laguerre/Graphs/RecursivePolynomials.png used on input line 516.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ <Matlab/Laguerre/Graphs/G-Lbefore.png, id=42, 562.1pt x 420.57124pt>
+File: Matlab/Laguerre/Graphs/G-Lbefore.png Graphic file (type png)
+ <use Matlab/Laguerre/Graphs/G-Lbefore.png>
+Package pdftex.def Info: Matlab/Laguerre/Graphs/G-Lbefore.png used on input line 524.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ [5 <./Matlab/Laguerre/Graphs/RecursivePolynomials.png (PNG copy)> <./Matlab/Laguerre/Graphs/G-Lbefore.png (PNG copy)>] <Matlab/Laguerre/Graphs/psi0.png, id=46, 562.1pt x 420.57124pt>
+File: Matlab/Laguerre/Graphs/psi0.png Graphic file (type png)
+ <use Matlab/Laguerre/Graphs/psi0.png>
+Package pdftex.def Info: Matlab/Laguerre/Graphs/psi0.png used on input line 574.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ <Matlab/Laguerre/Graphs/psi2.png, id=47, 562.1pt x 420.57124pt>
+File: Matlab/Laguerre/Graphs/psi2.png Graphic file (type png)
+ <use Matlab/Laguerre/Graphs/psi2.png>
+Package pdftex.def Info: Matlab/Laguerre/Graphs/psi2.png used on input line 582.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ [6 <./Matlab/Laguerre/Graphs/psi0.png (PNG copy)> <./Matlab/Laguerre/Graphs/psi2.png (PNG copy)>]
+Overfull \hbox (10.1755pt too wide) in paragraph at lines 669--670
+[]\OT1/cmr/m/n/10 Figure 10[] shows the data gen-er-ated by [][][], when im-put with [][][][][][][][][][][][][][][][][][][][][][][][][][][][].
+ []
+
+<Matlab/FittingData/Graph/lfitdata.png, id=52, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/lfitdata.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/lfitdata.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/lfitdata.png used on input line 675.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ <Matlab/FittingData/Graph/Lfitn0.png, id=53, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/Lfitn0.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/Lfitn0.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/Lfitn0.png used on input line 683.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ [7 <./Matlab/FittingData/Graph/lfitdata.png (PNG copy)> <./Matlab/FittingData/Graph/Lfitn0.png (PNG copy)>] <Matlab/FittingData/Graph/compareLandP.png, id=59, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/compareLandP.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/compareLandP.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/compareLandP.png used on input line 745.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ <Matlab/FittingData/Graph/fitdataa0.png, id=60, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/fitdataa0.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/fitdataa0.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/fitdataa0.png used on input line 784.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ <Matlab/FittingData/Graph/fitdataa2.png, id=61, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/fitdataa2.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/fitdataa2.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/fitdataa2.png used on input line 792.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ [8 <./Matlab/FittingData/Graph/compareLandP.png (PNG copy)> <./Matlab/FittingData/Graph/fitdataa0.png (PNG copy)> <./Matlab/FittingData/Graph/fitdataa2.png (PNG copy)>] <Matlab/FittingData/Graph/part3,1.png, id=65, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/part3,1.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/part3,1.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/part3,1.png used on input line 832.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ <Matlab/FittingData/Graph/part3,2.png, id=66, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/part3,2.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/part3,2.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/part3,2.png used on input line 840.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ <Matlab/FittingData/Graph/dataorigin.png, id=67, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/dataorigin.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/dataorigin.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/dataorigin.png used on input line 889.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ <Matlab/FittingData/Graph/laguerrefit62.png, id=68, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/laguerrefit62.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/laguerrefit62.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/laguerrefit62.png used on input line 897.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Matlab/FittingData/Graph/EvsAbig.png, id=69, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/EvsAbig.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/EvsAbig.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/EvsAbig.png used on input line 911.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+ <Matlab/FittingData/Graph/EvsAsmall.png, id=70, 562.1pt x 420.57124pt>
+File: Matlab/FittingData/Graph/EvsAsmall.png Graphic file (type png)
+ <use Matlab/FittingData/Graph/EvsAsmall.png>
+Package pdftex.def Info: Matlab/FittingData/Graph/EvsAsmall.png used on input line 919.
+(pdftex.def)             Requested size: 196.73795pt x 147.20213pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <./Matlab/FittingData/Graph/part3,1.png (PNG copy)> <./Matlab/FittingData/Graph/part3,2.png (PNG copy)>] [10 <./Matlab/FittingData/Graph/dataorigin.png (PNG copy)> <./Matlab/FittingData/Graph/laguerrefit62.png (PNG copy)> <./Matlab/FittingData/Graph/EvsAbig.png (PNG copy)> <./Matlab/FittingData/Graph/EvsAsmall.png (PNG copy)>] (/Users/James/SkyDrive/Documents/Oxford/B1 Project/B1 Project/.texpadtmp/b1writeup.aux) ) 
 Here is how much of TeX's memory you used:
- 3501 strings out of 493315
- 51247 string characters out of 6137904
- 126119 words of memory out of 5000000
- 6914 multiletter control sequences out of 15000+600000
- 10004 words of font info for 37 fonts, out of 8000000 for 9000
+ 6273 strings out of 493315
+ 91852 string characters out of 6137904
+ 178775 words of memory out of 5000000
+ 9600 multiletter control sequences out of 15000+600000
+ 13850 words of font info for 54 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,10n,32p,455b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "/Users/James/SkyDrive/Documents/Oxford/B1 Project/B1 Project/.texpadtmp/b1writeup.pdf" (6 pages, 203811 bytes).
+ 38i,12n,42p,869b,1502s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on "/Users/James/SkyDrive/Documents/Oxford/B1 Project/B1 Project/.texpadtmp/b1writeup.pdf" (11 pages, 413731 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

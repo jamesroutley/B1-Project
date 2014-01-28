@@ -13,7 +13,7 @@ function l_plotpsi(x, n, a)
     
     for i = 1:n
         
-        P(i,:) = l_generatepsi(x, i, a);
+        P(i,:) = fd_generatepsi(x, i, a);
     end
     
     hold off ; set ( gca , 'FontSize' , 18);
@@ -28,11 +28,3 @@ end
 
 
 
-
-
-function psi = l_generatepsi(x, n, a)
-
-    L = l_generateL(x, n, a);
-    psi = sqrt((gamma(n+1))/gamma(n+a+1)).*L(n,:).*x.^(a/2).*exp(-x/2);
-    
-end

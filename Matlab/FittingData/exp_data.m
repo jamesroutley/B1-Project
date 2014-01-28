@@ -36,19 +36,20 @@ X = abs(W).^2;
 %   The elements of fo are the number
 %    of samples of X that fall in each bin.
 %   The vector x corresponds to the
-%    bin locations.
+%    bin locations.50
 [fo,x] = hist(X,nbins);     % histogram
 fo = fo/trapz(x,fo);        % normalise; fo is a density func
 
-% Plot the data and save
-ystr = sprintf('Exponentially distributed data (mean = %g)',sigma2);
-figure
-set(gca,'FontSize',18);
-plot(x,fo,'kx','LineWidth',1.2)
-xlabel('x');
-ylabel(ystr);
-grid on
-print('-depsc',sprintf('exp_data_%g.eps',sigma2));
+% %Plot the data and save
+% ystr = sprintf('Exptfonentially distributed data (mean = %g)',mu);
+% figure
+% set(gca,'FontSize',18);
+% plot(x,fo,'kx','LineWidth',1.2)
+% xlabel('x');
+% ylabel(ystr);
+% grid on
+% %print('-depsc',sprintf('exp_data_%g.eps',sigma2));
+% hold on;
 
 end
 

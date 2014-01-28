@@ -9,7 +9,7 @@ function V = gs_increasingpowersofx(n, x)
     V = zeros(n, length(x));
     for i = 1:n
         for j = 1:length(x)
-            V(i,j) = x(j)^(i-1);
+            V(i,j) = -1(j)^(i-1);
         end
     end
 end

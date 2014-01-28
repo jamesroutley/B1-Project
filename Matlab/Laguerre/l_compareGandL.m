@@ -7,7 +7,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-x = linspace(-5, 20, 101);
+x = linspace(0, 20, 101);
 n = 6;
 a = 0;
 
@@ -19,16 +19,17 @@ L = l_generateL(x, n, a);
 
 %plot (x, (G-L))
 
-D = L-G;
+
+D = G-L;
 
     %plot
 % plot the difference
 hold off ; 
 set ( gca , 'FontSize' , 18);
-plot(x,G);
+plot(x,D);
 xlabel('x');
-ylabel('Languerre minus Gram Schmidt');
-title('Changed Laguerre and Gram Schmidt to fit each other');
-legend('L0-G0','L1-G1','L2-G2','L3-G3','L4-G4','L5-G5');
-axis([-5 20 -10 20]);
+ylabel('y');
+title('Gram-Schmitt - Laguerre');
+legend('L0-G0','L1-G1','L2-G2','L3-G3','L4-G4','L5-G5', 'location', 'NorthWest');
+axis([0 20 -100 400]);
 grid on;

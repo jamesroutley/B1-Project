@@ -19,11 +19,9 @@ function [Gnormal] = l_generateG(x, n)
 %Generate V, containing increasing powers of x:
 V = gs_increasingpowersofx(n, x);
 
-V
 %Perform Gram Schmitt Orthogonalisation on V:
 [E,G] = gs_gramschmittorthogonalisation(V, n, x);
 
-E
 
 %compute normalising constant
 Gcoeff = gs_normalisingcoeff(G, n, x);
@@ -31,13 +29,9 @@ Gcoeff = gs_normalisingcoeff(G, n, x);
 %normalise G
 Gnormal = gs_normalise(G, Gcoeff, n, x);
 
-
-
-
-
-
-%plot results on a graph
-%gs_plot(Gnormal, n, x)
+gs_plot(Gnormal, n, x)
 
 
 end
+
+
